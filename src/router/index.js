@@ -28,6 +28,10 @@ import toast from '@/pages/toast'
 import dialog from '@/pages/dialog'
 import indicator from '@/pages/indicator'
 
+import tabs from '@/pages/tabs'
+import header from '@/pages/header'
+import search from '@/pages/search'
+
 
 Vue.use(Router)
 
@@ -180,19 +184,19 @@ export default new Router({
       path: '/tabs',
       label: '导航组件',
       name: 'Tabs 标签页',
-      component: index
+      component: tabs
     },
     {
       path: '/header',
       label: '导航组件',
       name: 'Header 顶部导航栏',
-      component: index
+      component: header
     },
     {
       path: '/search',
       label: '导航组件',
       name: 'Search 搜索框',
-      component: index
+      component: search
     },
   ]
 })

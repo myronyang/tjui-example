@@ -6,7 +6,7 @@
         <template slot="item" slot-scope="{ data }">
           <tj-row
             flex
-            class="mt_15 bd_b_1 pb_10 pt_10 padding_10"
+            class="mt_15 pb_10 pt_10 padding_10 bg_white"
             :gutter="15"
             @click="handleClick(data)"
           >
